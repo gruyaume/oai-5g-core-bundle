@@ -49,7 +49,7 @@ applications:
     scale: 1
     trust: true
 relations:
-  - - mysql-k8s
+  - - mysql
     - oai-5g-udr
   - - oai-5g-nrf
     - oai-5g-udr
@@ -62,7 +62,7 @@ relations:
   - - oai-5g-ausf
     - oai-5g-nrf
   - - oai-5g-amf
-    - mysql-k8s
+    - mysql
   - - oai-5g-amf
     - oai-5g-nrf
   - - oai-5g-amf
